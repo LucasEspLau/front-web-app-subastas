@@ -1,0 +1,57 @@
+.pla-ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea columnas que se ajustan automáticamente al tamaño del contenedor */
+    gap: 20px; /* Espacio entre elementos grid */
+    padding: 0; /* Remueve el padding por defecto */
+    list-style-type: none; /* Remueve los estilos de lista por defecto */
+}
+
+.pla-li {
+    background-color: rgba(40, 76, 174, 0.594);
+    border: 1px solid #130c81; /* Añade un borde para visualizar los límites de cada elemento */
+    padding: 10px; /* Añade un poco de padding dentro de cada elemento */
+    display: flex; /* Utiliza flexbox para alinear los contenidos internos */
+    flex-direction: column; /* Organiza los contenidos internos en una columna */
+    border-radius: 20px;
+}
+
+.pla-div-form input, .pla-div-form button, .pla-div-show button {
+    all: unset;
+    padding: 10px; /* Añade padding para mejorar la apariencia */
+    margin: 5px 0; /* Añade un margen entre elementos */
+    cursor: pointer; /* Cambia el cursor para indicar que son clickeables */
+}
+
+.pla-div-form button, .pla-div-show button {
+    background-color: #007bff; /* Añade un color de fondo */
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Alinea el texto al centro */
+    border-radius: 5px; /* Redondea las esquinas */
+}
+
+/* Añade efectos de hover para mejorar la interactividad */
+.pla-div-form button:hover, .pla-div-show button:hover {
+    background-color: #0056b3;
+}
+.pla-div-show h3{
+    margin: 10px;
+}
+.pla-div-show-sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pla-div-show-sub img{
+    border-radius: 10px;
+}
+
+.pla-div-form input{
+    background-color: #34b5bf59;
+    border-radius: 5px;
+    cursor: auto;
+    width: auto;
+}
+.pla-div-form input[type="file"]{
+    width: 50%;
+    margin-right: 10px;
+}

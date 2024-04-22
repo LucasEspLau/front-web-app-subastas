@@ -1,0 +1,47 @@
+.aa-container{
+    margin-top: 10px;
+}
+.aa-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.aa-image {
+    max-width: 40%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+    height: 100%; /* Ajusta la altura automáticamente para mantener la proporción de aspecto */
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor, mostrándola por completo */
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.aa-info{
+    width: 100%;
+    
+}
+.aa-info select {
+    all:unset; /* Comentado o eliminado */
+    -webkit-appearance: menulist-button; /* Asegura la aparición predeterminada en WebKit/Blink */
+    -moz-appearance: menulist-button; /* Asegura la aparición predeterminada en Gecko (Firefox) */
+    appearance: menulist-button; /* Estándar para la apariencia */
+    width: 40%;
+    margin: 0px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa por encima */
+    margin-right: 5px;
+}
+.aa-winner{
+    margin-bottom: 3px;
+}
+.aa-state-p{
+    margin-bottom: 5px;
+}
+.aa-info button:hover{
+    background-color: royalblue;
+}
+.aa-price{
+    margin-bottom: 3px;
+}

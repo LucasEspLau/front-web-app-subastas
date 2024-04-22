@@ -1,0 +1,103 @@
+.bc-card-input, .bc-card-input input[type="number"] {
+    all: unset;
+    width: 100%; /* Esto hará que los elementos ocupen todo el ancho disponible de su contenedor padre */
+    padding: 10px; /* Añade un relleno para dar más espacio dentro de los botones e inputs */
+    box-sizing: border-box; /* Esto asegura que el padding y el border se incluyan en el ancho total */
+  
+}
+
+/* Botón Automático */
+.bc-btn-bet-automatic {
+    border: 1px solid white; /* Borde gris */
+    color: white; /* Texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin-right: 10px; /* Margen a la derecha para separarlo del siguiente elemento */
+}
+
+.bc-btn-bet-automatic.active {
+    background-color: #493bce; /* Fondo verde oscuro cuando está activo */
+    border: 1px solid white; /* Borde gris */
+}
+
+/* Botón de Apuesta (Bet) */
+.bc-btn-bet {
+    background-color: red; /* Fondo azul para el botón Bet */
+    color: white; /* Texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    border: 1px solid white; /* Borde gris */
+}
+
+.bc-btn-bet:hover {
+    background-color: red; /* Cambia el color al pasar el mouse */
+    
+}
+
+/* Input de Apuesta */
+.bc-card-input input[type="number"] {
+    border: 1px solid #ced4da; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin-right: 10px; /* Margen a la derecha para separarlo del botón Automático */
+    margin-left: 10px; /* Margen a la derecha para separarlo del botón Automático */
+    color: #495057; /* Color del texto */
+
+}
+
+/* Ajuste para la disposición horizontal */
+.bc-card-input {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos dentro de bc-card-input */
+}
+
+.bc-saldo{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.bc-quick-bets button{
+    all:unset
+}
+
+.bc-sal-quick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.bc-card-input{
+    display: flex;
+    justify-content: space-between;
+}
+.bc-card-input input[type="number"]{
+    background-color: white;
+}
+.bc-quick-bets {
+    display: flex;
+    
+    gap: 10px; /* Añade espacio entre los botones */
+}
+.bc-quick-bets button {
+    padding: 5px 10px; /* Espaciado interno */
+    background-color: #17a2b8; /* Fondo azul claro */
+    color: white; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    
+}
+
+
+@media (max-width: 500px) {
+    .bc-sal-quick{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}

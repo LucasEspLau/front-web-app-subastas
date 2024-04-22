@@ -1,0 +1,84 @@
+.lg-btn{
+    all:unset;
+    width: 100%;
+}
+.lg-form-group input{
+    all: unset;
+}
+
+/* Estilos para el contenedor principal */
+.lg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+.lg-title{
+    color: #000;
+}
+/* Estilos para el contenedor del formulario */
+.lg-container {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para resaltar sobre el azul marino */
+    box-shadow: 0 8px 16px rgba(0, 31, 63, 0.2); /* Sombra para dar profundidad */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 300px; /* Ancho fijo para el formulario */
+}
+
+/* Estilos para los grupos de formulario */
+.lg-form-group {
+    margin-bottom: 20px; /* Espacio entre los campos del formulario */
+}
+
+.lg-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #001f3f; /* Color azul marino para el texto */
+    font-weight: bold;
+}
+
+/* Estilos para los inputs */
+.lg-form-group input {
+    width: 100%; /* Ajuste a la anchura del contenedor */
+    padding: 10px;
+    border: 1px solid #007bff; /* Borde azul para contrastar */
+    border-radius: 5px; /* Bordes redondeados para los inputs */
+    box-sizing: border-box; /* Para incluir el padding y el borde en el ancho total */
+    background-color: #f0f8ff; /* Fondo claro para los inputs */
+    color: #000;
+}
+
+/* Estilos para el botón de login */
+.lg-btn {
+    display: block; /* Hacer que el botón ocupe toda la línea */
+    width: 100%; /* Ajuste a la anchura del contenedor */
+    padding: 10px 0; /* Relleno superior e inferior */
+    background-color: #007bff; /* Fondo azul para contrastar con el azul marino */
+    color: #ffffff; /* Texto blanco para legibilidad */
+    text-align: center; /* Centrar el texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border: none; /* Eliminar el borde */
+    margin-top: 10px; /* Espacio encima del botón */
+    font-weight: bold;
+}
+
+.lg-btn:hover {
+    background-color: #0056b3; /* Oscurecer el botón al pasar el mouse */
+}
+
+
+.lg-register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.lg-register-link p {
+    color: black; /* Ajusta el color según tu diseño */
+}
+
+.lg-register-link a {
+    color: #007bff; /* Ajusta el color del enlace según tu diseño */
+    text-decoration: underline; /* Opcional, si deseas subrayar el enlace */
+}

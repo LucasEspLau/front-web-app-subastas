@@ -1,0 +1,39 @@
+.acr-form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.acr-div-product select{
+    all: unset;
+    width: 80%;
+    border: 2px solid white;
+    background-color: midnightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.acr-div-price input{
+    all:unset;
+    width: 80%;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: midnightblue;
+}
+.acr-div-product{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.acr-div-price{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.acr-form button{
+    width: 100%;
+}
+.acr-form{
+    gap: 10px;
+}

@@ -1,0 +1,83 @@
+/* TableClients.css */
+.table-clients td input,.table-clients td select, .table-clients td button {
+    all: unset; /* Elimina todos los estilos heredados y establecidos previamente */
+    width: 100%; /* Establece el ancho al 100% para ocupar todo el espacio disponible de la celda */
+    padding: 2px; /* Añade un poco de relleno para mejorar la visibilidad y accesibilidad */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el cálculo del ancho total */
+}
+
+
+.table-clients {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff; /* Texto blanco para contraste */
+    background-color: #0A3A62; /* Un azul más claro que el fondo del body para la tabla */
+    margin-top: 10px;
+}
+
+.table-clients th, .table-clients td {
+    border: 1px solid #ddd; /* Borde claro para diferenciar las celdas */
+    padding: 8px;
+    text-align: left;
+}
+
+.table-clients th {
+    background-color: #0D47A1; /* Un azul más intenso para los encabezados */
+}
+
+.table-clients tr:nth-child(even) {
+    background-color: #0A3A62; /* El mismo color de fondo para las filas pares */
+}
+
+.table-clients tr:hover {
+    background-color: #1565C0; /* Un azul más claro para el hover */
+}
+
+.table-clients td {
+    border-color: #27496D; /* Un color de borde más oscuro para las celdas */
+}
+
+
+
+.table-clients td input, .table-clients td select, .table-clients td button {
+    background-color: #E3F2FD; /* Fondo claro para los inputs, select y botones para resaltarlos */
+    color: #0A3A62; /* Texto oscuro para contraste */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 4px; /* Relleno para mayor espacio dentro de los controles */
+    margin: 2px 0; /* Margen para separar los controles de los bordes de la celda */
+}
+
+.table-clients td button {
+    background-color: #039BE5; /* Fondo azul para los botones */
+    color: #ffffff; /* Texto blanco para los botones */
+    text-align: center; /* Alinea el texto de los botones al centro */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+}
+
+.table-clients td button:hover {
+    background-color: #0288D1; /* Fondo azul más oscuro al pasar el cursor sobre los botones */
+}
+
+/* Estilo para botones de editar y guardar */
+.table-clients .btn-edit, .table-clients .btn-save {
+    display: inline-block; /* Muestra los botones en línea */
+    width: auto; /* Ancho automático para ajustarse al contenido */
+    padding: 4px 8px; /* Relleno horizontal mayor para los botones */
+}
+
+/* Estilo específico para el botón de editar */
+.table-clients .btn-edit {
+    margin-right: 4px; /* Margen derecho para separar del botón de guardar */
+}
+
+/* Ajustes adicionales para responsividad o estilos específicos */
+@media (max-width: 768px) {
+    .table-clients {
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .table-clients {
+        font-size: 10px;
+    }
+}

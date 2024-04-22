@@ -1,0 +1,49 @@
+.gc-table{
+    margin: 0;
+}
+.gc-table th, 
+.gc-table td {
+    text-align: center;
+}
+
+
+/* Estilos para la tabla */
+.gc-table {
+    border-collapse: collapse;
+    width: 100%; /* Ajustar según la necesidad */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para mantener el borde redondeado */
+}
+
+/* Estilos para las cabeceras */
+.gc-table th {
+    background-color: #0096bfab; /* Cambiar al color deseado */
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para las celdas */
+.gc-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo al pasar el mouse */
+
+
+@media (max-width: 500px) {
+    .gc-table tr{
+        font-size: 15px;
+    }
+    .gc-table td{
+        font-size: 12px;
+    }
+    
+}
+
+

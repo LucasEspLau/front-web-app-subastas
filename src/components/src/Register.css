@@ -1,0 +1,77 @@
+.rg-btn {
+    all: unset;
+    width: 100%;
+}
+
+.rg-form-group input {
+    all: unset;
+}
+.rg-title{
+    color: black;
+}
+/* Estilos similares a los del formulario de login */
+.rg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.rg-container {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    background: #ffffff; /* Fondo blanco para resaltar sobre un fondo azul marino */
+}
+
+.rg-form-group {
+    margin-bottom: 20px;
+}
+
+.rg-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.rg-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.rg-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.rg-btn:hover {
+    background-color: #0056b3;
+}
+
+.rg-login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rg-login-link p {
+    color: #000000; /* Ajusta según tu diseño */
+}
+
+.rg-login-link a {
+    color: #007bff;
+    text-decoration: underline;
+}

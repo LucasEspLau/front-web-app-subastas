@@ -1,0 +1,35 @@
+.pca-form input,.pca-form button{
+    all:unset
+}
+.pca-form{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pca-form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    gap:10px
+}
+.pca-form input{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: 450;
+}
+
+@media (max-width: 768px) {
+    .pca-form div{
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .pca-form div{
+        width: 80%;
+    }
+}
